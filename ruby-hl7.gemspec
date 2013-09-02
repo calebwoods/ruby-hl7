@@ -14,9 +14,8 @@ Gem::Specification.new do |s|
   s.email = %q{ruby-hl7@googlegroups.com}
   s.extra_rdoc_files = [
     "LICENSE",
-     "README.rdoc"
+    "README.rdoc"
   ]
- 
   s.files         = `git ls-files`.split "\n"
   s.test_files    = `git ls-files -- {spec}/*`.split "\n"
   s.homepage = %q{http://github.com/ruby-hl7/ruby-hl7}
